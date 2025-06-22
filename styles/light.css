@@ -44,8 +44,16 @@
     display: none;
   }
 
+  .theme-auto .header__theme-menu-button {
+    --accent-color: rgba(53, 52, 48, 1);
+  }
+
   .theme-auto .header__theme-menu-button:hover {
     --hover-color: rgba(50, 49, 45, 0.4);
+  }
+
+  .theme-auto .footer__title {
+    --accent-color: rgba(255, 0, 112, 1);
   }
 }
 
@@ -66,6 +74,14 @@
   display: none;
 }
 
+.theme-light .header__theme-menu-button {
+  --accent-color: rgba(53, 52, 48, 1);
+}
+
 .theme-light .header__theme-menu-button:hover {
   --hover-color: rgba(50, 49, 45, 0.4);
+}
+
+.theme-light .footer__title {
+  --accent-color: rgba(255, 0, 112, 1);
 }
